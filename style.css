@@ -37,3 +37,53 @@ button:hover{
 .banner{
     display: flex;
 }
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.banner__left{
+  flex: 1;
+}
+.banner__right{
+  flex: 1;
+  text-align: right;
+}
+.banner__right img{
+  width: 90%;
+}
+h1{
+  line-height: 2;
+}
+p{
+  line-height: 2;
+  text-align: justify;
+}
+
+
+
+
+
+
+.card{
+  display: flex;
+  padding: 1rem;
+  border: 20px solid red;
+  border-radius: 15px ;
+  box-shadow: 0 0 10px rgba(0 , 0 , 0, 0.9)
+  align-items: center;
+  justify-content : center;
+  gap: 1rem;
+
+}
+.card__left{
+  flex-grow: 1;
+}
+.card__right{
+  flex-grow: 1;
+}
+.card__right img{
+  border-radius: 30px;
+/* width: 100%; */
+}
